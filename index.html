@@ -1,0 +1,86 @@
+<html>
+<head>
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+    <form action='' method='get' class='speaker-form'>
+</form>
+
+</head>
+<body>
+<div class="main">
+<div class="main1">
+
+    <div class="block1" >
+  <label for='full-name'>Name</label>
+  <input id='full-name' type='text'/>
+        <label for='email'>Email</label>
+  <input id='email'
+         type='email'
+         placeholder='joe@example.com'/>
+
+</div>
+    <div class="block2">
+        <label for='age'>Age</label>
+  <input type="number" id='age'>
+        <label for='bloodgroup'>DOB</label>
+  <input id='bloodgroup' type='date'/>
+    </div>
+<label for='options'>country</label>
+    <select id="options"  onchange="myfunc()" >
+        <option></option>
+
+    </select>
+
+
+    <h1 style="margin-left:2%">Gender</h1>
+
+<div class="block3">
+  <input name="grp1"id='male'
+         type='radio'
+         value='male' />
+  <label for='male'>male</label>
+  <input name="grp1" id='female'
+         type='radio'
+         value='female'
+         />
+  <label for='female'>female</label>
+</div>
+    <div class="block4" >
+  <label for='color'>favorite color</label>
+  <input id='color' type='text'/>
+
+
+</div>
+
+  <label for='mes'>message you want to convey</label>
+  <input id='mes' type='text'/>
+
+
+    <div class='block6'>
+  <button id="button">Submit</button>
+</div>
+
+    </div>
+<div class="main2">
+<table id="task"  border="2">
+  <tr>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Age</td>
+    <td>DOB</td>
+      <td>gender</td>
+      <td>fav-color</td>
+      <td>message</td>
+      <td>country</td>
+      <td>capital</td>
+  </tr>
+</table>
+
+</div>
+    </div>
+<script src="form.js">
+
+</script>
+
+
+</body>
